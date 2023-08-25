@@ -121,6 +121,8 @@ header .content h1{
 header .content h1 span{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
+    z-index: 5;
+    width: 60%;
 }
 
 header .content p{
