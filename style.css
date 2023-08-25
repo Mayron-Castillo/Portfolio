@@ -131,8 +131,14 @@ header .content p{
 }
 
 header .image{
-    position: relative;
-    transition: 300ms;
+      margin: auto;
+      position: relative;
+      transition: 600ms;
+      vertical-align: middle;
+      border-style: none;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
 }
 .image img:hover{
    transform: scale(1.1);
@@ -152,7 +158,13 @@ header .image::before{
     z-index: -100;
 }
  header .image img{
-    max-width: 600px;
-    margin: auto;
+      margin: auto;
+      position: relative;
+      transition: 600ms;
+      vertical-align: middle;
+      border-style: none;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
  }
  
