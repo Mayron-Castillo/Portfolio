@@ -16,10 +16,12 @@ img{
 
 a{
     text-decoration: none;
+    cursor: url(imagenes/cursor2.png), auto;
 }
  body{
     font-family: 'Poppins', sans-serif;
     background-color: #18181B;
+    cursor: url(imagenes/cursor.png), auto;
  }
 
  nav {
@@ -76,6 +78,7 @@ a{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+    cursor: url(imagenes/cursor2.png), auto;
  }
 
  .btn:hover{
